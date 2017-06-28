@@ -36,4 +36,4 @@ Below is the screenshot for the whole process :
 
 The last command is just to delete the branch remotely i.e. on my git repo ( instead of locally ).
 
-The video depicting the whole process is [here](https://www.youtube.com/watch?v=4_-E5l15gDU). 
+**The video depicting the whole process is [here](https://www.youtube.com/watch?v=4_-E5l15gDU). **
