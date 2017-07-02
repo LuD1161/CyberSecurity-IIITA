@@ -1,0 +1,184 @@
+{
+	"31":{
+	"port_number":"31",	
+	"type":"tcp",
+	"service":"Agent 31, Hackers Paradise, Masters Paradise"
+	},
+	"1170": {
+	"port_number": "1170",	 
+	"type": "tcp",
+	"service": "Psyber Stream"
+	},
+	"1234": {
+	"port_number": "1234",
+	"type": "tcp",
+	"service": "Ultors Trojan"
+	},
+	"1243": {
+	"port_number": "1243",
+	"type": "tcp",
+	"service": "SubSeven server (default for V1.0-2.0"
+	},
+	"1981": {
+	"port_number": "1981",
+	"type": "tcp",
+	"service": "ShockRave"
+	},
+	"2001": {
+	"port_number": "2001", 
+	"type": "tcp",
+	"service": "Trojan Cow"
+	},
+	"2023": {
+	"port_number": "2023",
+	"type": "tcp",
+	"service": "Ripper Pro"
+	},
+	"2140": {
+	"port_number": "2140",
+	"type": "udp",
+	"service": "Deep Throat, Invasor"
+	},
+	"2989": {
+	"port_number": "2989",		
+	"type": "tcp",
+	"service": "Rat backdoor"
+	},
+	"3024": {
+	"port_number": "3024",
+	"type": "tcp",
+	"service": "WinCrash"
+	},
+	"3150": {
+	"port_number": "3150",	 
+	"type": "tcp",
+	"service": "Deep Throat, Invasor"
+	},
+	"3700": {
+	"port_number": "3700",
+	"type": "tcp",
+	"service": "Portal of Doom"
+	},
+	"4950": {
+	"port_number": "4950",	 
+	"type": "tcp",
+	"service": "ICQ Trojan"
+	},
+	"6346": {
+	"port_number": "6346",
+	"type": "tcp",
+	"service": "Gnutella"
+	},
+	"6400": {
+	"port_number": "6400",
+	"type": "tcp",
+	"service": "The Thing"
+	},
+	"6667": {
+	"port_number": "6667",
+	"type": "tcp",
+	"service": "Trinity intruder-to-master and master-to-daemon SubSeven server (default for V2.1 Icqfix and beyond)"
+	},
+	"6670": {
+	"port_number": "6670", 
+	"type": "tcp",
+	"service": "Deep Throat"
+	},
+	"12345": {
+	"port_number": "12345",
+	"type": "tcp",
+	"service": "NetBus 1.x, GabanBus, Pie Bill Gates, X-Bill"
+	},
+	"12346": {
+	"port_number": "12346",	 
+	"type": "tcp",
+	"service": "NetBus 1.x"
+	},
+	"16660": {
+	"port_number": "16660",
+	"type": "tcp",
+	"service": "Stacheldraht intruder-to-master"
+	},
+	"18753": {
+	"port_number": "18753",	 
+	"type": "udp",
+	"service": "Shaft master-to-daemon"
+	},
+	"20034": {
+	"port_number": "20034",
+	"type": "tcp",
+	"service": "NetBus 2 Pro"
+	},
+	"20432": {
+	"port_number": "20432",	 
+	"type": "tcp",
+	"service": "Shaft intruder-to-master"
+	},
+	"20433": {
+	"port_number": "20433",
+	"type": "udp",
+	"service": "Shaft daemon-to-master"
+	},
+	"27374": {
+	"port_number": "27374",
+	"type": "tcp",
+	"service": "SubSeven server (default for V2.1-Defcon)"
+	},
+	"27444": {
+	"port_number": "27444",
+	"type": "udp",
+	"service": "Trinoo master-to-daemon"
+	},
+	"27665": {
+	"port_number": "27665",
+	"type": "tcp",
+	"service": "Trinoo intruder-to-master"
+	},
+	"30100": {
+	"port_number": "30100",
+	"type": "tcp",
+	"service": "NetSphere"
+	},
+	"31335": {
+	"port_number": "31335",	 
+	"type": "udp",
+	"service": "Trinoo daemon-to-master"
+	},
+	"31337": {
+	"port_number": "31337",
+	"type": "tcp",
+	"service": "Back Orifice, Baron Night, Bo Facil"
+	},
+	"33270": {
+	"port_number": "33270",	
+	"type": "tcp",
+	"service": "Trinity master-to-daemon"
+	},
+	"33567": {
+	"port_number": "33567",
+	"type": "tcp",
+	"service": "Backdoor rootshell via inetd (from Lion worm)"
+	},
+	"33568": {
+	"port_number": "33568",	 
+	"type": "tcp",
+	"service": "Trojaned version of SSH (from Lion worm)"
+	},
+	"40421": {
+	"port_number": "40421",
+	"type": "tcp",
+	"service": "Masters Paradise Trojan horse"
+	},
+	"60008": {
+	"port_number": "60008",
+	"type": "tcp",
+	"service": "Backdoor rootshel via inetd (from Lion worm)"
+	},
+	"65000": {
+	"port_number": "65000",
+	"type": "tcp",
+	"service": "Stacheldraht master-to-daemon"
+	}
+}
+
+

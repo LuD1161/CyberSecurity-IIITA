@@ -1,0 +1,18 @@
+{
+    "31352": {
+        "port": "31352"
+    }, 
+    "57216": {
+        "port": "57216"
+    }, 
+    "1234": {
+        "remarks": "Ultors Trojan", 
+        "port": "1234", 
+        "type_of_port": "tcp"
+    }, 
+    "4950": {
+        "remarks": "ICQ Trojan", 
+        "port": "4950", 
+        "type_of_port": "tcp"
+    }
+}
