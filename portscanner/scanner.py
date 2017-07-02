@@ -44,7 +44,7 @@ for x in range(40):
 for worker in range(1,65000):
 	q.put(worker)
 	
-with open('sample_output.json','aw') as output:
+with open('output.json','aw') as output:
 	json.dump(dictionary, output, ensure_ascii=False,indent=4)
 q.join()
 
