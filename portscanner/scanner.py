@@ -13,18 +13,20 @@ with open('blacklist.json') as x:
 
 dictionary={}
 
-
 def portscan(port):
-	
 	s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 	try:
 		con=s.connect((target,port))
         	k=port
         	dictionary[port]={}
-        	dictionary[port]['port']=str(k)
-        	dictionary[port]['type_of_port']=str(blacklist[str(k)]['type'])
-        	dictionary[port]['remarks']=str(blacklist[str(k)]['service'])
-          	con.close()
+        	try:
+        		dictionary[port]['port']=str(k)
+        		dictionary[port]['type_of_port']=str(blacklist[str(k)]['type'])
+        		dictionary[port]['remarks']=str(blacklist[str(k)]['service'])
+        	except:
+        		 dictionary[port]['port']=str(k)
+        		 dictionary[port]['remarks']='not in blacklisted ports'
+        	con.close()
         except:
              pass
 

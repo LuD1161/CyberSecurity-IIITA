@@ -1,18 +1,20 @@
 {
-    "31352": {
-        "port": "31352"
-    }, 
-    "57216": {
-        "port": "57216"
-    }, 
     "1234": {
         "remarks": "Ultors Trojan", 
         "port": "1234", 
         "type_of_port": "tcp"
     }, 
+    "31658": {
+        "remarks": "not in blacklisted ports", 
+        "port": "31658"
+    }, 
     "4950": {
         "remarks": "ICQ Trojan", 
         "port": "4950", 
         "type_of_port": "tcp"
+    }, 
+    "34765": {
+        "remarks": "not in blacklisted ports", 
+        "port": "34765"
     }
 }
