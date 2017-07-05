@@ -1,6 +1,6 @@
 import socket
 import threading
-from queue import Queue
+from Queue import Queue
 import time
 import json 
 
@@ -12,24 +12,26 @@ with open('blacklist.json') as x:
 
 
 dictionary={}
-
+i=0
 def portscan(port):
 	s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 	try:
 		con=s.connect((target,port))
         	k=port
-        	dictionary[port]={}
+        	global i
+        	i=i+1
+        	dictionary[i]={}
         	try:
-        		dictionary[port]['port']=str(k)
-        		dictionary[port]['type_of_port']=str(blacklist[str(k)]['type'])
-        		dictionary[port]['remarks']=str(blacklist[str(k)]['service'])
+        		dictionary[i]['port']=str(k)
+        		dictionary[i]['type_of_port']=str(blacklist[str(k)]['type'])
+        		dictionary[i]['remarks']=str(blacklist[str(k)]['service'])
+        		
         	except:
-        		 dictionary[port]['port']=str(k)
-        		 dictionary[port]['remarks']='not in blacklisted ports'
+        		 dictionary[i]['port']=str(k)
+        		 dictionary[i]['remarks']="not in blacklisted ports"
         	con.close()
         except:
              pass
-
 def threader():
 	while True:
         	worker = q.get()
