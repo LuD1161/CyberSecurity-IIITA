@@ -1,9 +1,8 @@
 #!/usr/bin/env python
+import json
 import socket
 import threading
-import json
 from Queue import Queue
-
 print_lock = threading.Lock()
 target = "127.0.0.1"
 with open('blacklist.json') as x:
@@ -13,8 +12,13 @@ NewlyOpendPorts = {}
 list = []
 portnew = []
 portold = []
-
-
+def new():
+    with open('output.json') as x:
+        data = json.load(x)
+    for i in (data):
+        if "ports" in data[i]:
+            portold.append(data[i]["ports"])
+new()
 def portscanudp (port):
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     try:
@@ -24,8 +28,6 @@ def portscanudp (port):
         con.close()
     except:
         pass
-
-
 def portscantcp (port):
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     try:
@@ -39,16 +41,12 @@ def portscantcp (port):
         con.close()
     except:
         pass
-
-
 def threader ():
     while True:
         worker = q.get()
         portscanudp(worker)
         portscantcp(worker)
         q.task_done()
-
-
 q = Queue()
 for x in range(40):
     t = threading.Thread(target=threader)
@@ -75,7 +73,8 @@ for i in range(len(list)):
         dictionary[i + 1]['remarks'] = 'not in blacklisted ports'
         dictionary[i + 1]['service'] = str(small_list[1])
         dictionary[i + 1]['type of port'] = str(small_list[2])
+for i in (set(portnew)-set(portold)):
+    dictionary['NewlyOpen'] ={}
+    dictionary['NewlyOpen'][i] ='NEW'
 with open('output.json','w') as x:
 	json.dump(dictionary,x,indent=8)
-
-
