@@ -8,7 +8,6 @@ target = "127.0.0.1"
 with open('blacklist.json') as x:
     blacklist = json.load(x)
 dictionary = {}
-NewlyOpendPorts = {}
 list = []
 portnew = []
 portold = []
