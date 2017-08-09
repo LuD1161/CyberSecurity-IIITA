@@ -1254,7 +1254,6 @@
         "3783,,game-voice-chat,,tcp": "GameSpy Arcade voice chat", 
         "15000,,NetDemon,,tcp": "[trojan] NetDemon", 
         "6667,,SubSeven,,tcp": "[trojan] SubSeven", 
-        "7326,,icb,,tcp": "Internet Citizen's Band", 
         "481,,dvs,,tcp": "dvs", 
         "6547,,apc-tcp-udp-1,,tcp": "apc-tcp-udp-1", 
         "2339,,VoiceSpyOBS,,udp": "[trojan] Voice Spy - OBS!!!", 
