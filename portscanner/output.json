@@ -3,15 +3,15 @@
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
-                "port": "7", 
-                "service": "echo"
+                "port": "9", 
+                "service": "discard"
         }, 
         "2": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
-                "port": "9", 
-                "service": "discard"
+                "port": "7", 
+                "service": "echo"
         }, 
         "3": {
                 "remarks": "not in blacklisted ports", 
@@ -39,7 +39,7 @@
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "21", 
-                "service": "fsp"
+                "service": "# Local services\n"
         }, 
         "7": {
                 "remarks": "not in blacklisted ports", 
@@ -59,22 +59,22 @@
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
-                "port": "50", 
-                "service": "re-mail-ck"
+                "port": "49", 
+                "service": "tacacs"
         }, 
         "10": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
-                "port": "49", 
-                "service": "tacacs"
+                "port": "50", 
+                "service": "re-mail-ck"
         }, 
         "11": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "53", 
-                "service": "# Local services\n"
+                "service": "domain"
         }, 
         "12": {
                 "remarks": "not in blacklisted ports", 
@@ -87,99 +87,99 @@
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
-                "port": "68", 
-                "service": "bootpc"
+                "port": "67", 
+                "service": "bootps"
         }, 
         "14": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
-                "port": "67", 
-                "service": "bootps"
+                "port": "68", 
+                "service": "bootpc"
         }, 
         "15": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "69", 
-                "service": "tftp"
+                "service": "rtelnet"
         }, 
         "16": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "tcp", 
+                "new_or_old": "new", 
+                "port": "80", 
+                "service": "http"
+        }, 
+        "17": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "88", 
                 "service": "kerberos"
         }, 
-        "17": {
+        "18": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "104", 
                 "service": "acr-nema"
         }, 
-        "18": {
+        "19": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "105", 
                 "service": "csnet-ns"
         }, 
-        "19": {
+        "20": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "106", 
                 "service": "poppassd"
         }, 
-        "20": {
+        "21": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "107", 
                 "service": "rtelnet"
         }, 
-        "21": {
+        "22": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "111", 
                 "service": "sunrpc"
         }, 
-        "22": {
-                "remarks": "not in blacklisted ports", 
-                "type of port": "udp", 
-                "new_or_old": "old", 
-                "port": "123", 
-                "service": "# Local services\n"
-        }, 
         "23": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
-                "port": "129", 
-                "service": "imap2\u0000\t143/tcp\u0000\timap\u0000\t"
+                "port": "123", 
+                "service": "ntp"
         }, 
         "24": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "udp", 
+                "new_or_old": "old", 
+                "port": "129", 
+                "service": "pwdgen"
+        }, 
+        "25": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "135", 
                 "service": "loc-srv"
         }, 
-        "25": {
-                "remarks": "not in blacklisted ports", 
-                "type of port": "udp", 
-                "new_or_old": "old", 
-                "port": "137", 
-                "service": "dhcpv6-server\u0000547/udp"
-        }, 
         "26": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
-                "port": "138", 
-                "service": "netbios-dgm"
+                "port": "137", 
+                "service": "netbios-ns"
         }, 
         "27": {
                 "remarks": "not in blacklisted ports", 
@@ -190,1325 +190,1395 @@
         }, 
         "28": {
                 "remarks": "not in blacklisted ports", 
-                "type of port": "udp", 
+                "type of port": "tcp", 
                 "new_or_old": "old", 
-                "port": "161", 
-                "service": "snmp"
+                "port": "139", 
+                "service": "netbios-ssn"
         }, 
         "29": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
-                "port": "164", 
-                "service": "cmip-agent"
+                "port": "138", 
+                "service": "netbios-ssn"
         }, 
         "30": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "162", 
-                "service": "snmp-trap"
+                "service": "snmp"
         }, 
         "31": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "udp", 
+                "new_or_old": "old", 
+                "port": "161", 
+                "service": "snmp"
+        }, 
+        "32": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "udp", 
+                "new_or_old": "old", 
+                "port": "164", 
+                "service": "cmip-agent"
+        }, 
+        "33": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "163", 
                 "service": "cmip-man"
         }, 
-        "32": {
+        "34": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "174", 
                 "service": "mailq"
         }, 
-        "33": {
+        "35": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "177", 
                 "service": "xdmcp"
         }, 
-        "34": {
+        "36": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "178", 
                 "service": "nextstep"
         }, 
-        "35": {
+        "37": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "194", 
                 "service": "irc"
         }, 
-        "36": {
+        "38": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "199", 
                 "service": "smux"
         }, 
-        "37": {
+        "39": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "201", 
                 "service": "at-rtmp"
         }, 
-        "38": {
+        "40": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "udp", 
+                "new_or_old": "old", 
+                "port": "202", 
+                "service": "at-nbp"
+        }, 
+        "41": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "204", 
                 "service": "at-echo"
         }, 
-        "39": {
-                "remarks": "not in blacklisted ports", 
-                "type of port": "udp", 
-                "new_or_old": "old", 
-                "port": "202", 
-                "service": "at-echo"
-        }, 
-        "40": {
+        "42": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "206", 
                 "service": "at-zis"
         }, 
-        "41": {
+        "43": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "209", 
                 "service": "qmtp"
         }, 
-        "42": {
+        "44": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "210", 
-                "service": "loc-srv"
+                "service": "z3950"
         }, 
-        "43": {
+        "45": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "213", 
                 "service": "ipx"
         }, 
-        "44": {
+        "46": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "345", 
-                "service": "loc-srv"
+                "service": "pawserv"
         }, 
-        "45": {
+        "47": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "346", 
                 "service": "zserv"
         }, 
-        "46": {
+        "48": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "347", 
                 "service": "fatserv"
         }, 
-        "47": {
+        "49": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "369", 
-                "service": "rpc2portmap"
+                "service": "domain\u0000\t53"
         }, 
-        "48": {
+        "50": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "udp", 
+                "new_or_old": "old", 
+                "port": "371", 
+                "service": "codaauth2"
+        }, 
+        "51": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "370", 
                 "service": "codaauth2"
         }, 
-        "49": {
-                "remarks": "not in blacklisted ports", 
-                "type of port": "udp", 
-                "new_or_old": "old", 
-                "port": "371", 
-                "service": "clearcase"
-        }, 
-        "50": {
-                "remarks": "not in blacklisted ports", 
-                "type of port": "udp", 
-                "new_or_old": "old", 
-                "port": "372", 
-                "service": "daytime\u0000\t13/tcp"
-        }, 
-        "51": {
-                "remarks": "not in blacklisted ports", 
-                "type of port": "udp", 
-                "new_or_old": "old", 
-                "port": "389", 
-                "service": "ldap"
-        }, 
         "52": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
-                "port": "406", 
+                "port": "372", 
                 "service": "# Local services\n"
         }, 
         "53": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
+                "port": "389", 
+                "service": "ldap"
+        }, 
+        "54": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "udp", 
+                "new_or_old": "old", 
+                "port": "406", 
+                "service": "imsp"
+        }, 
+        "55": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "udp", 
+                "new_or_old": "old", 
                 "port": "427", 
                 "service": "svrloc"
         }, 
-        "54": {
+        "56": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "444", 
                 "service": "snpp"
         }, 
-        "55": {
+        "57": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "445", 
+                "service": "xmpp-client"
+        }, 
+        "58": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "tcp", 
+                "new_or_old": "old", 
+                "port": "445", 
                 "service": "microsoft-ds"
         }, 
-        "56": {
+        "59": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "464", 
                 "service": "kpasswd"
         }, 
-        "57": {
+        "60": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "487", 
                 "service": "saft"
         }, 
-        "58": {
+        "61": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "500", 
                 "service": "isakmp"
         }, 
-        "59": {
+        "62": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "512", 
                 "service": "biff"
         }, 
-        "60": {
+        "63": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "513", 
-                "service": "tcpmux\u0000\t1/tcp\t\t\t\t\u0000 TCP port service multiplexer\n"
+                "service": "who"
         }, 
-        "61": {
+        "64": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "514", 
-                "service": "# Local services\n"
+                "service": "syslog"
         }, 
-        "62": {
+        "65": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "517", 
                 "service": "talk"
         }, 
-        "63": {
+        "66": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "518", 
-                "service": "snmp-trap"
+                "service": "ntalk"
         }, 
-        "64": {
+        "67": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "520", 
                 "service": "route"
         }, 
-        "65": {
+        "68": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "525", 
                 "service": "timed"
         }, 
-        "66": {
+        "69": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "533", 
                 "service": "netwall"
         }, 
-        "67": {
+        "70": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "538", 
-                "service": "gdomap"
+                "service": "goph"
         }, 
-        "68": {
+        "71": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "546", 
                 "service": "dhcpv6-client"
         }, 
-        "69": {
+        "72": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "547", 
                 "service": "dhcpv6-server"
         }, 
-        "70": {
-                "remarks": "not in blacklisted ports", 
-                "type of port": "udp", 
-                "new_or_old": "old", 
-                "port": "548", 
-                "service": "tftp\u0000\t69/udp\u0000"
-        }, 
-        "71": {
+        "73": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "549", 
                 "service": "idfp"
         }, 
-        "72": {
+        "74": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "udp", 
+                "new_or_old": "old", 
+                "port": "548", 
+                "service": "afpovertcp"
+        }, 
+        "75": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "554", 
-                "service": "rtsp"
+                "service": "we"
         }, 
-        "73": {
-                "remarks": "not in blacklisted ports", 
-                "type of port": "udp", 
-                "new_or_old": "old", 
-                "port": "607", 
-                "service": "nqs"
-        }, 
-        "74": {
+        "76": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "610", 
                 "service": "npmp-local"
         }, 
-        "75": {
+        "77": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "611", 
                 "service": "npmp-gui"
         }, 
-        "76": {
+        "78": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "udp", 
+                "new_or_old": "old", 
+                "port": "607", 
+                "service": "npmp-gui"
+        }, 
+        "79": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "612", 
                 "service": "hmmp-ind"
         }, 
-        "77": {
+        "80": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "623", 
                 "service": "asf-rmcp"
         }, 
-        "78": {
+        "81": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "628", 
-                "service": "qmqp"
+                "service": "bgpd\t\t2605/tcp\t\t\t# bgpd vty (zebra)\n\u0000\n"
         }, 
-        "79": {
+        "82": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "631", 
                 "service": "ipp"
         }, 
-        "80": {
+        "83": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "636", 
                 "service": "ldaps"
         }, 
-        "81": {
+        "84": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "655", 
                 "service": "tinc"
         }, 
-        "82": {
-                "remarks": "not in blacklisted ports", 
-                "type of port": "udp", 
-                "new_or_old": "old", 
-                "port": "706", 
-                "service": "silc"
-        }, 
-        "83": {
-                "remarks": "not in blacklisted ports", 
-                "type of port": "udp", 
-                "new_or_old": "old", 
-                "port": "750", 
-                "service": "kerberos4"
-        }, 
-        "84": {
-                "remarks": "not in blacklisted ports", 
-                "type of port": "udp", 
-                "new_or_old": "old", 
-                "port": "751", 
-                "service": "msp\u0000\t18/udp"
-        }, 
         "85": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
-                "port": "752", 
-                "service": "csnet-ns"
+                "port": "706", 
+                "service": "# "
         }, 
         "86": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "udp", 
+                "new_or_old": "old", 
+                "port": "751", 
+                "service": "kerberos-master"
+        }, 
+        "87": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "udp", 
+                "new_or_old": "old", 
+                "port": "752", 
+                "service": "passwd-server"
+        }, 
+        "88": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "udp", 
+                "new_or_old": "old", 
+                "port": "750", 
+                "service": "passwd-server"
+        }, 
+        "89": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "765", 
                 "service": "webster"
         }, 
-        "87": {
+        "90": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "779", 
-                "service": "rtelnet\u0000\t107/tcp\u0000\t\t\t\u0000 Remote Telnet\n\u0000"
+                "service": "moira-ureg"
         }, 
-        "88": {
+        "91": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "808", 
-                "service": "omirr"
+                "service": "snmp-trap"
         }, 
-        "89": {
+        "92": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "1001", 
-                "service": "radmin-port"
+                "service": "netwall"
         }, 
-        "90": {
+        "93": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "1080", 
                 "service": "socks"
         }, 
-        "91": {
-                "remarks": "not in blacklisted ports", 
-                "type of port": "udp", 
-                "new_or_old": "old", 
-                "port": "1094", 
-                "service": "netwall\u0000\t533/udp\u0000\t\t\t"
-        }, 
-        "92": {
+        "94": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "1093", 
-                "service": "# Local services\n"
+                "service": "proofd"
         }, 
-        "93": {
+        "95": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "udp", 
+                "new_or_old": "old", 
+                "port": "1094", 
+                "service": "rootd"
+        }, 
+        "96": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "1099", 
                 "service": "rmiregistry"
         }, 
-        "94": {
+        "97": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "1194", 
                 "service": "openvpn"
         }, 
-        "95": {
+        "98": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "1210", 
-                "service": "kazaa"
+                "service": "predict"
         }, 
-        "96": {
+        "99": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "1214", 
-                "service": "# Local services\n"
+                "service": "rtelnet"
         }, 
-        "97": {
+        "100": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "1241", 
                 "service": "nessus"
         }, 
-        "98": {
+        "101": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "1352", 
                 "service": "lotusnote"
         }, 
-        "99": {
+        "102": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "1433", 
                 "service": "ms-sql-s"
         }, 
-        "100": {
+        "103": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "1434", 
                 "service": "ms-sql-m"
         }, 
-        "101": {
+        "104": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "1524", 
                 "service": "ingreslock"
         }, 
-        "102": {
-                "remarks": "not in blacklisted ports", 
-                "type of port": "udp", 
-                "new_or_old": "old", 
-                "port": "1646", 
-                "service": "acr-nema"
-        }, 
-        "103": {
+        "105": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "1645", 
                 "service": "datametrics"
         }, 
-        "104": {
+        "106": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "udp", 
+                "new_or_old": "old", 
+                "port": "1646", 
+                "service": "sa-msg-port"
+        }, 
+        "107": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "1649", 
-                "service": "kermit"
+                "service": "at-zis"
         }, 
-        "105": {
+        "108": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "1677", 
                 "service": "groupwise"
         }, 
-        "106": {
+        "109": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "1701", 
                 "service": "l2f"
         }, 
-        "107": {
+        "110": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "1812", 
-                "service": "radius"
+                "service": "daytime"
         }, 
-        "108": {
+        "111": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "1813", 
                 "service": "radius-acct"
         }, 
-        "109": {
+        "112": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "1863", 
-                "service": "msnp"
+                "service": "time"
         }, 
-        "110": {
+        "113": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "2000", 
                 "service": "cisco-sccp"
         }, 
-        "111": {
+        "114": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "2049", 
-                "service": "nfs"
+                "service": "dhcpv6-server\u0000547/tcp"
         }, 
-        "112": {
+        "115": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "2086", 
-                "service": "gnunet"
+                "service": "loc-srv\u0000\t135/udp\u0000\tepmap"
         }, 
-        "113": {
+        "116": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "2101", 
                 "service": "rtcm-sc104"
         }, 
-        "114": {
+        "117": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "2102", 
                 "service": "zephyr-srv"
         }, 
-        "115": {
+        "118": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "2103", 
-                "service": "zephyr-clt"
+                "service": "# Local services\n"
         }, 
-        "116": {
+        "119": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "2104", 
                 "service": "zephyr-hm"
         }, 
-        "117": {
+        "120": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "2119", 
-                "service": "re-mail-ck\u000050/udp\u0000"
+                "service": "gsigatekeeper"
         }, 
-        "118": {
+        "121": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "2135", 
                 "service": "gris"
         }, 
-        "119": {
-                "remarks": "not in blacklisted ports", 
-                "type of port": "udp", 
-                "new_or_old": "old", 
-                "port": "2150", 
-                "service": "z395"
-        }, 
-        "120": {
-                "remarks": "not in blacklisted ports", 
-                "type of port": "udp", 
-                "new_or_old": "old", 
-                "port": "2401", 
-                "service": "qotd\u0000\t17/tcp\u0000\tquote"
-        }, 
-        "121": {
-                "remarks": "not in blacklisted ports", 
-                "type of port": "udp", 
-                "new_or_old": "old", 
-                "port": "2430", 
-                "service": "lotusnote\u00001352/udp\u0000lotusnotes"
-        }, 
         "122": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
-                "port": "2431", 
-                "service": "venus-se"
+                "port": "2150", 
+                "service": "ninstall"
         }, 
         "123": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
-                "port": "2433", 
-                "service": "codasrv-se"
+                "port": "2401", 
+                "service": "cvspserver"
         }, 
         "124": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "udp", 
+                "new_or_old": "old", 
+                "port": "2430", 
+                "service": "ipx\t\t"
+        }, 
+        "125": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "2432", 
                 "service": "codasrv"
         }, 
-        "125": {
-                "remarks": "not in blacklisted ports", 
-                "type of port": "udp", 
-                "new_or_old": "old", 
-                "port": "2583", 
-                "service": "npmp-gui\t6"
-        }, 
         "126": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
-                "port": "2628", 
-                "service": "clearcase\t370/udp"
+                "port": "2433", 
+                "service": "# If you need a huge list of used numbers please install the nmap package.\n"
         }, 
         "127": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
-                "port": "2792", 
-                "service": "ipp\t\t631/tcp\t"
+                "port": "2431", 
+                "service": "venus-se"
         }, 
         "128": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "udp", 
+                "new_or_old": "old", 
+                "port": "2583", 
+                "service": "xmpp-server\u00005269/tcp\tjabber-server\t\u0000 Jabber Server Connection\n"
+        }, 
+        "129": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "udp", 
+                "new_or_old": "old", 
+                "port": "2628", 
+                "service": "smtp\t\t"
+        }, 
+        "130": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "udp", 
+                "new_or_old": "old", 
+                "port": "2792", 
+                "service": "f5-globalsite"
+        }, 
+        "131": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "2811", 
                 "service": "gsiftp"
         }, 
-        "129": {
+        "132": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "2947", 
-                "service": "gpsd"
+                "service": "pwdgen\u0000\t129/udp"
         }, 
-        "130": {
+        "133": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "2988", 
                 "service": "afbackup"
         }, 
-        "131": {
+        "134": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "2989", 
                 "service": "afmbackup"
         }, 
-        "132": {
+        "135": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "3050", 
-                "service": "npm"
+                "service": "gds-db"
         }, 
-        "133": {
+        "136": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "3130", 
-                "service": "codaauth2"
+                "service": "icpv2"
         }, 
-        "134": {
+        "137": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "3205", 
                 "service": "isns"
         }, 
-        "135": {
+        "138": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "3306", 
                 "service": "mysql"
         }, 
-        "136": {
+        "139": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "3493", 
                 "service": "nut"
         }, 
-        "137": {
+        "140": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "3632", 
-                "service": "distcc"
+                "service": "# Local services\n"
         }, 
-        "138": {
+        "141": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "3689", 
                 "service": "daap"
         }, 
-        "139": {
+        "142": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "3690", 
                 "service": "svn"
         }, 
-        "140": {
+        "143": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "4031", 
                 "service": "suucp"
         }, 
-        "141": {
+        "144": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "4094", 
                 "service": "sysrqd"
         }, 
-        "142": {
+        "145": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "4353", 
                 "service": "f5-iquery"
         }, 
-        "143": {
+        "146": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "4369", 
-                "service": "epmd"
+                "service": "radius-acct\u00001813/tcp\tradacct\t\t\u0000 Radius Accounting\n"
         }, 
-        "144": {
+        "147": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "4373", 
                 "service": "remctl"
         }, 
-        "145": {
+        "148": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "4500", 
-                "service": "domain\u0000\t53"
+                "service": "ipsec-nat-t"
         }, 
-        "146": {
+        "149": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "4569", 
                 "service": "iax"
         }, 
-        "147": {
+        "150": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "4691", 
                 "service": "mtn"
         }, 
-        "148": {
+        "151": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "4899", 
-                "service": "radmin-port"
+                "service": "discard\t\t9/tcp\t\tsink null\n"
         }, 
-        "149": {
+        "152": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "5002", 
-                "service": "she"
+                "service": "rfe"
         }, 
-        "150": {
+        "153": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "5050", 
                 "service": "mmcc"
         }, 
-        "151": {
-                "remarks": "not in blacklisted ports", 
-                "type of port": "udp", 
-                "new_or_old": "old", 
-                "port": "5061", 
-                "service": "nextstep\u0000178/tcp\u0000\tNeXTStep NextStep\t"
-        }, 
-        "152": {
+        "154": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "5060", 
                 "service": "sip"
         }, 
-        "153": {
+        "155": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "udp", 
+                "new_or_old": "old", 
+                "port": "5061", 
+                "service": "sip-tls"
+        }, 
+        "156": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "5190", 
                 "service": "aol"
         }, 
-        "154": {
+        "157": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "5222", 
                 "service": "xmpp-client"
         }, 
-        "155": {
+        "158": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "5269", 
                 "service": "xmpp-server"
         }, 
-        "156": {
+        "159": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "5308", 
                 "service": "cfengine"
         }, 
-        "157": {
+        "160": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "5353", 
                 "service": "mdns"
         }, 
-        "158": {
+        "161": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "5354", 
                 "service": "noclog"
         }, 
-        "159": {
+        "162": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "5355", 
                 "service": "hostmon"
         }, 
-        "160": {
+        "163": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "5432", 
+                "service": "venus\u0000\t2430/udp\u0000\t\t\u0000 Venus callback/wbc interface\n\u0000ns\n"
+        }, 
+        "164": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "tcp", 
+                "new_or_old": "old", 
+                "port": "5433", 
+                "service": "SERVICE_NOT_FOUND"
+        }, 
+        "165": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "tcp", 
+                "new_or_old": "old", 
+                "port": "5432", 
                 "service": "postgresql"
         }, 
-        "161": {
+        "166": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "5555", 
                 "service": "rplay"
         }, 
-        "162": {
+        "167": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "5556", 
                 "service": "freeciv"
         }, 
-        "163": {
+        "168": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "5672", 
-                "service": "# Note that it is presently the pol"
+                "service": "amqp"
         }, 
-        "164": {
+        "169": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "5688", 
-                "service": "discard"
+                "service": "ggz"
         }, 
-        "165": {
+        "170": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "6000", 
-                "service": "x11"
+                "service": "z3950\u0000\t210/tcp\u0000\twais\t\t\u0000 NISO Z39.50 database\n"
         }, 
-        "166": {
+        "171": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "6001", 
-                "service": "nextstep\u0000178/udp\u0000\tNeXTStep NextStep\t"
+                "service": "x11-1"
         }, 
-        "167": {
-                "remarks": "not in blacklisted ports", 
-                "type of port": "udp", 
-                "new_or_old": "old", 
-                "port": "6002", 
-                "service": "x11-2"
-        }, 
-        "168": {
+        "172": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "6003", 
                 "service": "x11-3"
         }, 
-        "169": {
+        "173": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "udp", 
+                "new_or_old": "old", 
+                "port": "6002", 
+                "service": "x11-2"
+        }, 
+        "174": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "6004", 
                 "service": "x11-4"
         }, 
-        "170": {
-                "remarks": "not in blacklisted ports", 
-                "type of port": "udp", 
-                "new_or_old": "old", 
-                "port": "6005", 
-                "service": "at-echo"
-        }, 
-        "171": {
+        "175": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "6006", 
                 "service": "x11-6"
         }, 
-        "172": {
+        "176": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "udp", 
+                "new_or_old": "old", 
+                "port": "6005", 
+                "service": "x11-5"
+        }, 
+        "177": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "6007", 
                 "service": "x11-7"
         }, 
-        "173": {
+        "178": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "6346", 
-                "service": "cha"
+                "service": "gnutella-svc"
         }, 
-        "174": {
+        "179": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "6347", 
-                "service": "tacacs-ds"
+                "service": "gnutella-rtr"
         }, 
-        "175": {
+        "180": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "6444", 
                 "service": "sge-qmaster"
         }, 
-        "176": {
+        "181": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "6445", 
                 "service": "sge-execd"
         }, 
-        "177": {
+        "182": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "6446", 
                 "service": "mysql-proxy"
         }, 
-        "178": {
+        "183": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "6696", 
                 "service": "babel"
         }, 
-        "179": {
+        "184": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "7000", 
                 "service": "afs3-fileserver"
         }, 
-        "180": {
-                "remarks": "not in blacklisted ports", 
-                "type of port": "udp", 
-                "new_or_old": "old", 
-                "port": "7003", 
-                "service": "afs3-callback"
-        }, 
-        "181": {
+        "185": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "7001", 
-                "service": "afs3-prserver"
+                "service": "afs3-callback"
         }, 
-        "182": {
+        "186": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "7002", 
-                "service": "afs3-prserver"
+                "service": "echo\u0000\t7/tcp\u0000"
         }, 
-        "183": {
+        "187": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "7004", 
                 "service": "afs3-kaserver"
         }, 
-        "184": {
+        "188": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "udp", 
+                "new_or_old": "old", 
+                "port": "7003", 
+                "service": "afs3-vlserver"
+        }, 
+        "189": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "7005", 
                 "service": "afs3-volser"
         }, 
-        "185": {
+        "190": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "7006", 
                 "service": "afs3-errors"
         }, 
-        "186": {
+        "191": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "udp", 
+                "new_or_old": "old", 
+                "port": "7008", 
+                "service": "bootps\u0000\t67/udp\u0000"
+        }, 
+        "192": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "udp", 
+                "new_or_old": "old", 
+                "port": "7009", 
+                "service": "afs3-rmtsys"
+        }, 
+        "193": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "7007", 
                 "service": "afs3-bos"
         }, 
-        "187": {
-                "remarks": "not in blacklisted ports", 
-                "type of port": "udp", 
-                "new_or_old": "old", 
-                "port": "7008", 
-                "service": "afs3-bos"
-        }, 
-        "188": {
-                "remarks": "not in blacklisted ports", 
-                "type of port": "udp", 
-                "new_or_old": "old", 
-                "port": "7009", 
-                "service": "datametrics\u00001645/tcp\u0000old-radius"
-        }, 
-        "189": {
+        "194": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "7100", 
-                "service": "font-service"
+                "service": "mailq"
         }, 
-        "190": {
+        "195": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "8080", 
-                "service": "http-alt"
+                "service": "clearcase\t370/udp"
         }, 
-        "191": {
+        "196": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "8088", 
-                "service": "omniorb"
+                "service": "# Local services\n"
         }, 
-        "192": {
-                "remarks": "not in blacklisted ports", 
-                "type of port": "udp", 
-                "new_or_old": "old", 
-                "port": "9103", 
-                "service": "bacula-sd"
-        }, 
-        "193": {
+        "197": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "9101", 
                 "service": "bacula-dir"
         }, 
-        "194": {
+        "198": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "9102", 
-                "service": "smux\t\t199/udp\n\u0000\t\t"
+                "service": "bacula-fd"
         }, 
-        "195": {
+        "199": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "udp", 
+                "new_or_old": "old", 
+                "port": "9103", 
+                "service": "bacula-sd"
+        }, 
+        "200": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "9359", 
-                "service": "mandelspawn"
+                "service": "binkp\u0000\t24554/tcp"
         }, 
-        "196": {
+        "201": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "9667", 
                 "service": "xmms2"
         }, 
-        "197": {
+        "202": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "tcp", 
+                "new_or_old": "new", 
+                "port": "10000", 
+                "service": "webmin"
+        }, 
+        "203": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "tcp", 
+                "new_or_old": "new", 
+                "port": "9999", 
+                "service": "SERVICE_NOT_FOUND"
+        }, 
+        "204": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "tcp", 
+                "new_or_old": "new", 
+                "port": "10010", 
+                "service": "SERVICE_NOT_FOUND"
+        }, 
+        "205": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "10050", 
-                "service": "bootpc\t\t68/udp\n\u0000\t\t"
+                "service": "systat\u0000\t11/tcp\t\tusers\u0000"
         }, 
-        "198": {
+        "206": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "10051", 
                 "service": "zabbix-trapper"
         }, 
-        "199": {
+        "207": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "10080", 
                 "service": "amanda"
         }, 
-        "200": {
+        "208": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "10081", 
                 "service": "kamanda"
         }, 
-        "201": {
+        "209": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "11201", 
                 "service": "# Local services\n"
         }, 
-        "202": {
+        "210": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "11371", 
-                "service": "rtelnet\u0000\t107/udp\u0000"
+                "service": "hkp"
         }, 
-        "203": {
+        "211": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "13720", 
-                "service": "rtelnet"
+                "service": "bprd"
         }, 
-        "204": {
+        "212": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "13721", 
                 "service": "bpdbm"
         }, 
-        "205": {
-                "remarks": "not in blacklisted ports", 
-                "type of port": "udp", 
-                "new_or_old": "old", 
-                "port": "13722", 
-                "service": "bpjava-msvc"
-        }, 
-        "206": {
+        "213": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "13724", 
                 "service": "vnetd"
         }, 
-        "207": {
+        "214": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "udp", 
+                "new_or_old": "old", 
+                "port": "13722", 
+                "service": "x11-2"
+        }, 
+        "215": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "13782", 
                 "service": "bpcd"
         }, 
-        "208": {
+        "216": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "13783", 
-                "service": "chargen"
+                "service": "vopied"
         }, 
-        "209": {
+        "217": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "15345", 
                 "service": "xpilot"
         }, 
-        "210": {
-                "remarks": "not in blacklisted ports", 
-                "type of port": "udp", 
-                "new_or_old": "old", 
-                "port": "17002", 
-                "service": "sgi-crsd"
-        }, 
-        "211": {
+        "218": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "17001", 
-                "service": "sgi-gcd"
+                "service": "ms-sql-m"
         }, 
-        "212": {
+        "219": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "17003", 
+                "service": "chargen\u0000\t19/tcp\u0000\tttytst source\u0000"
+        }, 
+        "220": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "udp", 
+                "new_or_old": "old", 
+                "port": "17002", 
                 "service": "sgi-gcd"
         }, 
-        "213": {
+        "221": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "udp", 
+                "new_or_old": "old", 
+                "port": "20011", 
+                "service": "# Local services\n"
+        }, 
+        "222": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "20012", 
                 "service": "vboxd"
         }, 
-        "214": {
-                "remarks": "not in blacklisted ports", 
-                "type of port": "udp", 
-                "new_or_old": "old", 
-                "port": "20011", 
-                "service": "netbios-ssn"
-        }, 
-        "215": {
+        "223": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "22273", 
                 "service": "wnn6"
         }, 
-        "216": {
+        "224": {
                 "remarks": "not in blacklisted ports", 
                 "type of port": "udp", 
                 "new_or_old": "old", 
                 "port": "27374", 
-                "service": "asp"
+                "service": "# Local services\n"
+        }, 
+        "225": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "tcp", 
+                "new_or_old": "new", 
+                "port": "39230", 
+                "service": "SERVICE_NOT_FOUND"
+        }, 
+        "226": {
+                "remarks": "not in blacklisted ports", 
+                "type of port": "tcp", 
+                "new_or_old": "new", 
+                "port": "43250", 
+                "service": "SERVICE_NOT_FOUND"
         }
 }
